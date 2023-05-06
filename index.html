@@ -1,11 +1,12 @@
 <!DOCType html>
 <head></head>
 <style>
+
     #header{ width: 12.5%;margin-top: 27px; padding-left: 0px; display: inline-block; text-align: center; }
     #header:hover{ text-decoration-color: red; color: red; text-decoration: underline; }
     a {
-        text-decoration: none; /* 밑줄 제거 */
-        color: black; /* 글꼴 색상 변경 */
+        text-decoration: none;
+        color: black;
     }
 
 
@@ -18,67 +19,96 @@
         margin-top: 27px;
         text-align: center;
     }
-    div.icon_box{
+
+    .icon_box{
         
-        margin-left: 7%;
+
         height: 200px;
         width: 1240px;
+        text-align: center;
         display: inline-block;
     }
 
-    div.chefs{
+    .icon_box_Text{
+
+        height: 200px; width: 250px;
+        word-wrap: break-word; display: inline-block;
+        padding: 27px;
+    }
+
+    .dotted{
+
+        margin-top: 30px;
+         border: 1px dotted black;
+    }
+
+    .chefs{
 
         margin-top: 100px;
         height: 304px;
         width: 100%;
         background-color: rgb(212, 205, 205);
     }
+
+    .chefs_box{
+
+        width: 814px;
+        height: 304px;
+        
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+
+    }
+
+    .chefs_box_Text{
+
+        width: 500px; padding-left: 20px; padding-right: 20px; word-wrap: break-word;
+    }
 </style>
 <body>
-    <div style="display: flex; justify-content: center; align-items: center; height: 100px; width: 1000px;">
-    <div id="header"><a href="https://dummy page.com">How it works</a></div>
-    <div id="header"><a href="https://dummy page.com">Gifts</a></div>
+    <div id="header"><a href="https://dummypage.com">How it works</a></div>
+    <div id="header"><a href="https://dummypage.com">Gifts</a></div>
     <div id="header"><a href="about.html" >About</a></div>
     <div id="header"style="width: 20%; margin-top: 0px" ><img src="logo.png"></div>
-    <div id="header"><a href="https://#dummy page.com">Login</a></div>
-    <div id="header"><a href="https://#dummy page.com">Member</a></div>
-    <div id="header"><a href="https://#dummy page.com">Contacts</a></div>
-    </div>
+    <div id="header"><a href="https://#dummypage.com">Login</a></div>
+    <div id="header"><a href="https://#dummypage.com">Member</a></div>
+    <div id="header"><a href="https://#dummypage.com">Contacts</a></div>
+
     <div id="main_picture"><img src="main.png"></div>
 
     <p id="icon_title_text" style="font-size: 10px">"WHAT'S FOR DINNER"
         <div id="icon_title_text" style="font-size: 20px; margin-top: 0px;">FINALLY HAS AN<br>EASY ANSWER</div>
     </p>
 
-    <div class="icon_box" style="text-align: center;">
-        <div style="height: 200px; width: 250px;padding-left: 40px; padding: 10px;
-        word-wrap: break-word; display: inline-block;"><img src="icon1.png">
+
+    <div style="width: 100%; justify-content: center; display: flex;">
+    <div class="icon_box">
+        <div class="icon_box_Text"><img src="icon1.png">
             sdafsafdsadfasdfasfdfsafdasfadsasdfasdfasfdsafdsafasdfasdfadsfasdfadsfadsfadsfadsfdasfadsfadsfasdfdasfdsafdasfdasfadsfasdfdasfadsfsdafdasfadsfdasffads
-            <div style="margin-top: 30px; border: 1px dotted black;"></div>
+            <div class="dotted"></div>
  
         </div>
-        <div style="height: 200px; width: 250px;padding-left: 40px; padding: 10px;
-        word-wrap: break-word; display: inline-block;"><img src="icon2.png">
+        <div class="icon_box_Text"><img src="icon2.png">
             sdafsafdsadfasdfasfdfsafdasfadsasdfasdfasfdsafdsafasdfasdfadsfasdfadsfadsfadsfadsfdasfadsfadsfasdfdasfdsafdasfdasfadsfasdfdasfadsfsdafdasfadsfdasffads
-            <div style="margin-top: 30px; border: 1px dotted black;"></div>
+            <div class="dotted"></div>
         </div>
-        <div style="height: 200px; width: 250px;padding-left: 40px; padding: 10px;
-        word-wrap: break-word; display: inline-block;"><img src="icon3.png">
+        <div class="icon_box_Text"><img src="icon3.png">
             sdafsafdsadfasdfasfdfsafdasfadsasdfasdfasfdsafdsafasdfasdfadsfasdfadsfadsfadsfadsfdasfadsfadsfasdfdasfdsafdasfdasfadsfasdfdasfadsfsdafdasfadsfdasffads
-            <div style="margin-top: 30px; border: 1px dotted black;"></div>
+            <div class="dotted"></div>
         </div>
-        <div style="height: 200px; width: 250px; padding-left: 40px; padding: 10px; word-wrap: break-word; display: inline-block;"><img src="icon4.png">
+        <div class="icon_box_Text"><img src="icon4.png">
             sdafsafdsadfasdfasfdfsafdasfadsasdfasdfasfdsafdsafasdfasdfadsfasdfadsfadsfadsfadsfdasfadsfadsfasdfdasfdsafdasfdasfadsfasdfdasfadsfsdafdasfadsfdasffads
-            <div style="margin-top: 30px; border: 1px dotted black;"></div>
+            <div class="dotted"></div>
         </div>
+    </div>
     </div>
 
     <div class="chefs">
-        <div style="width: 814px; height: 304px; margin: 0 auto; border: 1px solid green; display: flex; align-items: center">
-            <p style="width: 500px; padding-left: 20px; padding-right: 20px; border: 1px solid yellowgreen; word-wrap: break-word;">
+        <div class="chefs_box">
+            <p class="chefs_box_Text">
                 asdfdasfadsfsadfdsafasdfsadfasdfafdsf
                 adsdasfdfasfadsdasfdsafdsfdsafdasfdsaffdasdfsadasfdfasdfasdfasdasfdasfdasffdasasdfdfsasadfasdffdasdasffdasfdsadsaffdsadfsafdasfdsadfsafdsadasffadsdasfadsfafsdadsf
-    
             </p><img src="chef.png" style="margin-left: 20px;">
         </div>
         
