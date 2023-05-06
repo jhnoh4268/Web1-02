@@ -1,13 +1,31 @@
 <!DOCType html>
 <style>
-    #contaner{
-        margin-top: 30px;
-        width: 1000px;
-        height: 500px;
-        text-align: center;
+
+
+    footer{
+
         justify-content: center;
         align-items: center;
         display: flex;
+    }
+
+    #page{
+
+        width: 100%;
+        height: 500px;
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    #container{
+
+        margin-top: 30px;
+        width: 1000px;
+        height: 500px;
+        display: flex;
+
     }
 
     #top{
@@ -15,21 +33,179 @@
         height: 500px;
     }
 
+    #top_box{
+
+        background-color: rgba(5, 113, 43, 0.414);
+        font-size: 20px;
+
+        width: 210px;
+        height: 250px;
+
+        word-wrap: break-word;
+        position: absolute;
+
+        left: 230px;
+        top: 275px;
+    }
     #right{
         display: flex;
 	    flex-direction: column;
         width: 250px;
         height: 250px;
+        
+    }
+
+    #box_all{
+
+        width: 1000px;
+        height: 500px;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .box_left{
+
+        width: 750px;
+        height: 500px;
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box_right{
+
+        background-color: yellow;
+        width: 250px;
+        height: 500px;
+    }
+
+    .box{
+
+        width: 250px;
+        height: 250px;
+    }
+
+    .box_Text{
+
+        margin-left: 15px;
+        margin-top: 15px;
+
+        width:220px;
+
+        word-wrap: break-word;
+        display: inline-block;
+    }
+
+    #footer{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 1000px;
+        height: 40px;
+    }
+
+    #f_left{
+
+        background-color: gray;
+        height: 40px;
+        width: 750px;
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+    #f_right{
+
+        background-color: pink;
+        height: 40px;
+        width: 250px;
+    }
+
+    .vertival_line{
+
+        border-right: 3px solid orange;
+
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 25px;
     }
 
 </style>
 <body>
-    <div id="container">
 
-        <img id="top" src="chef_about.png">
-        <div id ="right">
-            <img src="right1.png">
-            <img src="right2.png">
+    <div id="page">
+        <div id="container">
+
+            <img id="top" src="chef_about.png">
+
+            <div id="top_box">
+                GLOVAL
+                <br>
+                BUSINESS
+                <br><br>
+                asdfasdfasfdsafdsafdsafadsfsadfsdfafasdfasdfdsafasdfdsafdsafad
+            </div>
+            <div>
+                <img id="right" src="right1.png">
+                <img id="right" src="right2.png">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="page" style="margin-top:15px;">
+
+        <div id="box_all">
+
+            <div class="box_left">
+                <div class="box" style="background-color: rgb(83, 82, 82);">
+
+                    <div class="box_Text" style="font-size: 20px;">Title</div>
+                    <div class="box_Text">adsfadsfadsfadsfadsfadsfaasdsadfasdfadsfasdfdasfadsfdasfdsf</div>
+                
+                </div>
+                <div class="box" style="background-color: orange;">
+
+                    <div class="box_Text" style="font-size: 20px;">Title</div>
+                    <div class="box_Text">adsfadsfadsfadsfadsfadsfaasdsadfasdfadsfasdfdasfadsfdasfdsf</div>
+
+                </div>
+                <div class="box" style="background-color: rgb(83, 82, 82);"></div>
+                
+                <div class="box" style="background-color: orange;"></div>
+                <div class="box" style="background-color: rgb(83, 82, 82);"></div>
+                <div class="box" style="background-color: orange;"></div>
+            </div>
+
+            <div class="box_right">
+            </div>
         </div>
     </div>
 </body>
+
+<footer>
+
+    <div id="footer">
+        <div id="f_left">
+            
+            <div>법적고지</div>
+            <div class="vertival_line"></div>
+            <div>이메일무단수집거부</div>
+            <div class="vertival_line"></div>
+            <div>이용약관</div>
+            <div class="vertival_line"></div>
+            <div>개인정보취급방침</div>
+            <div class="vertival_line"></div>
+            <div>고객센터</div>
+            <div class="vertival_line"></div>
+            <div>입찰공고</div>
+
+
+        </div>
+        <div id="f_right">
+        </div>
+    </div>
+
+</footer>
